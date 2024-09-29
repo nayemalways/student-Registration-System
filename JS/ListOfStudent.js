@@ -75,7 +75,7 @@ function fetchData(){
         `
         // modal end of student 
 
-        // dat load on the table body 
+        // data load on the table body 
         let tableData = `
         <tr>
             <td>${index + 1}</td>
@@ -139,8 +139,9 @@ function editStudent(index){
 
 }
 
- 
 
+ 
+// Update data 
 class EditStudent{
     constructor(firstName,lastName,roll,studentClass,number,mail){
         this.firstName = firstName;

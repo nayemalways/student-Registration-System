@@ -177,7 +177,6 @@ let saveStudent = document.getElementById('editStudent');
     let mail = document.getElementById('mail').value;
 
      let student = new EditStudent(firstName,lastName,roll,classStudent,number,mail);
-     console.log(id);
     
 
     //  save change data 

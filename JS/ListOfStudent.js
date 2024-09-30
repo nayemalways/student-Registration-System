@@ -180,8 +180,7 @@ let saveStudent = document.getElementById('editStudent');
     
 
     //  save change data 
-    let studentData = JSON.parse(localStorage.getItem('student')) || [];
-    // studentData[id] = student.toJSON();
+    let studentData = JSON.parse(localStorage.getItem('students')) || [];
     studentData.splice(id,1,student.toJSON());
     localStorage.setItem('students', JSON.stringify(studentData));
      
